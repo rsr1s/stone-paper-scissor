@@ -1,12 +1,12 @@
 
-var img1 = 'E:\\js\\pro\\spc\\s_user1.png';
-var img2 = 'E:\\js\\pro\\spc\\p_user1.png';
-var img3 = 'E:\\js\\pro\\spc\\c_user1.png';
+var img1 = 'image\\s_user1.png';
+var img2 = 'image\\p_user1.png';
+var img3 = 'image\\c_user1.png';
 
 function com(v){
     var random = Math.floor(Math.random()*3);
     var image = 'comp'+random+'.png';
-    var imagefile= 'E:\\js\\pro\\spc\\'+image;
+    var imagefile= 'image\\'+image;
     var img = document.querySelectorAll('img')[0];
     img.setAttribute('src',imagefile);
     if (v>random){
