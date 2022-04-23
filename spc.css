@@ -1,5 +1,5 @@
 .p_com{
-    padding-left: 500px;
+    padding-left: 350px;
     padding-top: 200px;
     width: 400px;
     height: 100px;
@@ -14,7 +14,7 @@ h1{
 }
 .p_user{
     position: relative;
-    left: 10px;
+    left: 60px;
     bottom: 90px;
     width: 400px;
     height: 100px;
@@ -27,6 +27,7 @@ button{
     margin: 10px;
 }
 footer{
+    padding-block-end: 10px;
     margin: 50px;
     background-color: rgb(100, 100, 100);
     text-align: center;
