@@ -1,0 +1,36 @@
+.p_com{
+    padding-left: 500px;
+    padding-top: 200px;
+    width: 400px;
+    height: 100px;
+}
+h1{
+    margin: 10px;
+    padding-left: 180px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 2rem;
+    color: #4ECCA3;
+}
+.p_user{
+    position: relative;
+    left: 130px;
+    bottom: 90px;
+    width: 400px;
+    height: 100px;
+}
+button{
+    position: relative;
+    right: 70px;
+    box-shadow: 1px 2px 10px 5px rgb(238, 235, 228);
+    background-color: rgb(78, 76, 242);
+    margin: 10px;
+}
+footer{
+    margin: 50px;
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+
+
