@@ -1,0 +1,20 @@
+{
+  "name":"stone paper scissor",
+  "version":"0.0.1",
+  "manifest_version":3,
+  "action":{
+    "default_popup":"index.html"
+  },
+  "permissions":["activeTab","notifications"],
+  "chrome_url_overrides":{
+    "newtab":"index.html"
+  },
+  "commands":{
+    "flip-tabs-forward":{
+      "suggested_key":{
+      "default":"Ctrl+Space"
+      },
+    "description":"flip tabs"
+    }
+  }
+}
