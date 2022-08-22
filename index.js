@@ -1,14 +1,14 @@
 
-var img1 = 'image\\s_user1.png';
-var img2 = 'image\\p_user1.png';
-var img3 = 'image\\c_user1.png';
+var img1 = 's_user1.png';
+var img2 = 'p_user1.png';
+var img3 = 'c_user1.png';
 var userScore = 0;
 var result;
 
 function com(v){
     var random = Math.floor(Math.random()*3);
     var image = 'comp'+random+'.png';
-    var imagefile= 'image\\'+image;
+    var imagefile= image;
     var img = document.querySelectorAll('img')[0];
     img.setAttribute('src',imagefile);
 
@@ -95,31 +95,5 @@ function click2(){
 
 }
 
-//
-// chrome.action.setBadgeText({text:"playing"});
-// function playing(){
-//   chrome.notifications.create({
-//     type:"basic",
-//     iconUrl:"favicon/favicon.ico",
-//     title:"let's play",
-//     message:"time to create new high score",
-//     buttons:[{
-//       title:"play"
-//     }],
-//     priority:0
-//   });
-// }
-// playing()
-//
-// chrome.commands.onCommand.addListener(command=>{
-//   chrome.tabs.query({currentWindow:true},tabs=>{
-//     tabs.sort((a,b)=>a.index-b.index);
-//     const activeIndex= tabs.findIndex((tab)=>tab.active);
-//     const lastTab = tabs.length-1;
-//     let newIndex = -1;
-//     if(command === "flip-tabs-forward"){
-//       newIndex=activeIndex===0?lastTab:activeIndex-1;
-//     }
-//     chrome.tabs.update(tabs[newIndex].id,{active:true,highlighted:true});
-//     })
-// })
+
+
